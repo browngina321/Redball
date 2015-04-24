@@ -1,0 +1,40 @@
+<html>
+
+<head>
+<script type='text/javascript' src='http://lrn.icstars.org/redball.js'></script>
+<script type = 'text/javascript'>
+function sayhelloworld(){
+  alert('Let\'s Get it Gina');
+}
+</script>
+<script type='text/javascript'>
+		function moveup()  {
+		   redball.top=redball.top -20;
+		}
+</script>
+<script type='text/javascript'>
+        function movedown ()  {
+          redball.top=redball.top +20;
+        }
+</script>
+<script type='text/javascript'> 
+		function moveleft ()  {
+		  redball.left=redball.left -20;
+		  }
+</script>
+<script type='text/javascript'>
+        function moveright ()  {
+		  redball.left=redball.left +20;
+		  }
+</script>
+</head>
+<body>
+<button onclick="moveup()">Move Up</button>
+<button onclick="movedown()">Move Down</button>
+<button onclick="moveleft ()">Move Left</button>
+<button onclick="moveright ()">Move Right</button>
+<button onclick="sayhelloworld()")>You Ready!?</button>
+
+<img id= 'redball' style="height:50px; width:50px;"src="http://fc07.deviantart.net/fs36/f/2008/281/1/e/Red_Ball_by_M4st3rD.jpg"/>
+</body>
+</html>
